@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Filter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+    <h1 id="heading">Car value estimation</h1>
+    <div id="main">
+        <form id="carFilter">
+            <h3>Enter your vehicle details</h3>
+            <p id="indicates">* Indicates required</p>
+            <input type="text" id="year" name="year" placeholder="Enter year of purchase *">
+            <input type="text" id="make" name="make" placeholder="Enter Make *">
+            <input type="text" id="model" name="model" placeholder="Enter Model *">
+            <input type="text" id="mileage" name="mileage" placeholder="Enter Mileage">
+            <br>
+            <button type="submit" id="submit">Filter</button>
+            <button id="clear">clear</button>
+        </form>
+    </div>
+
+    <h3 id="price"></h3>
+
+    <div id="results">
+        <table id="resultstable">
+
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
